@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Invader.java&apos; to &apos;Invader.java&apos;&#x0A;- Original project: &apos;Lab04-textspel-klasser&apos;&#x0A;- Destination element: &apos;Invader.java&apos;&#x0A;- Original element: &apos;Invader.java&apos;" description="Copy compilation unit" destination="/src&lt;{Invader.java" element1="/src&lt;{Invader.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1580804886446" units="1" version="1.0"/>
+</session>

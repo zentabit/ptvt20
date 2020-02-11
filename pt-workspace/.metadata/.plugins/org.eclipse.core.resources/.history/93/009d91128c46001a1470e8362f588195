@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+
+public class SpaceInvaders {
+
+	public static void main(String[] args) {
+		int width = 80;
+		int height = 24;
+		
+		ArrayList<Invader> Invaders = new ArrayList<Invader>();
+		Invaders.add(new Invader(2, 0));
+		Invaders.add(new Invader(20, 10));
+
+		for (int i = 0; i < height; i++) {
+			for (int j = 0; j < width; j++) {
+				System.out.print("|");
+			}
+			System.out.println();
+		}
+		
+		for(Invader inv:Invaders) {
+			
+		}
+	}
+
+	void draw() {
+
+	}
+
+}
