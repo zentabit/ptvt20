@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+
+public class SpaceInvaders {
+
+	public static void main(String[] args) {
+		int width = 80;
+		int height = 24;
+		
+		ArrayList<Invader> Invaders = new ArrayList<Invader>();
+		Invaders.add(new Invader(2, 0));
+		Invaders.add(new Invader(20, 10));
+		draw(width, height);
+	
+	}
+
+	private static void draw(int w, int h) {
+		// skapa textsträng med rutan (spaces)
+		//StringBuilder row = new StringBuilder("h".repeat(w));
+		String row = "h".repeat(w);
+		StringBuilder screen = new StringBuilder(row.repeat(h));
+		// byt ut alla spaces mot objekt
+		// skriv ut på skärmen
+		System.out.print(screen);
+	}
+	
+	
+
+}
