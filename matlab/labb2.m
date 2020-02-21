@@ -1,14 +1,14 @@
 %% d1
-y = [5 0 -75 -70 1404 2520]
-z = roots(y)
+y = [5 0 -75 -70 1404 2520] % koeff för pol
+z = roots(y) % ger rötterna i vektor
 x = linspace(-10, 10);
 plot(x, polyval(y,x))
-d = polyval(y,z)
+d = polyval(y,z) % ge värdet i nollställena, borde vara 0
 
 %% d2
-z = poly([-7 -6 -5 8])
+z = poly([-7 -6 -5 8]) % ta fram ett polynom med dessa rötter
 x = linspace(-50, 50, 1000);
-plot(x, polyval(z, x))
+plot(x, polyval(z, x)) %ok
 
 %% d3
 f = @(t) 3.*exp(-0.2.*t)+4.*cos(2.*t);
@@ -20,11 +20,11 @@ grid on
 %% d4
 g = @(x) cos(exp(x))./(1-x);
 x = linspace(2,3);
-z1 = fminbnd(g,2,2.8)
-z2 = fminbnd(g,2.8,3)
-f(z1)
-f(z2)
-plot(x, g(x))
+z1 = fminbnd(g,2,2.8) % sök min
+z2 = fminbnd(g,2.8,3) % sök min
+g(z1)
+g(z2)
+plot(x, g(x)) % plotta för att jämföra
 grid on
 
 %% d5
