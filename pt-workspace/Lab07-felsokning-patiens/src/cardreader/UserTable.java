@@ -56,6 +56,9 @@ public class UserTable {
 		while (pos < n && users[pos].getCardNbr() < u.getCardNbr()) {
 			pos++;
 		}
+		
+		//System.out.println(u.getCardNbr());
+		//System.out.println(pos);
 
 		// 2. skapa en lucka i vektorn
 		for (int i = n; i > pos; i--) {
@@ -64,6 +67,8 @@ public class UserTable {
 
 		// 3. stoppa in den nya boken i luckan
 		users[pos] = u;
+		// lägg till n++
+		n++;
 	}
 
 	/**
@@ -79,7 +84,7 @@ public class UserTable {
 		int low = 0;
 		int high = n - 1;
 		int mid = -1;
-		while (low < high) {
+		while (low <= high) { // saknades ett mindre än eller lika med
 			mid = (low + high) / 2;
 			if (users[mid].getCardNbr() == cardNbr) {
 				return users[mid];
@@ -121,9 +126,8 @@ public class UserTable {
 		for (int i = 0; i < n; i++) {
 			if (users[i].getName().equals(name)) {
 				return users[i];
-			} else {
-				return null;
 			}
+			// tag bort else
 		}
 		
 		return null;

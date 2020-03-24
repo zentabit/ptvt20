@@ -50,6 +50,9 @@ public class Maze {
 			case 5:
 				initialize(is, 162, 320);
 				break;
+			case 6:
+				initialize(is, 211, 0);
+				break;
 			default:
 				throw new Error("invalid maze");
 			}
