@@ -143,6 +143,7 @@
             <entry path="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="C:\Program Files\AdoptOpenJDK\jdk-11.0.5.10-hotspot" version="11.0.5"/>
     <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home" version="1.7.0_71">
         <bootpath>
             <entry path="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/resources.jar"/>
