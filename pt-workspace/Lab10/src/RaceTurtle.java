@@ -1,6 +1,10 @@
 import java.util.Random;
 
 public class RaceTurtle extends Turtle {
+	public class MoleTurtle {
+
+	}
+
 	private int nbr;
 	private Random r;
 	

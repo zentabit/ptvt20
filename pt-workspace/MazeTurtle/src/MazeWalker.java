@@ -24,10 +24,10 @@ public class MazeWalker {
 				t.left(-90);
 				turns++;
 			}
-			// rita ut paddan, vänta en sekund
+			// rita ut paddan, vänta en stund
 			t.forward(1);
 			forwards++;
-			SimpleWindow.delay(1);
+			SimpleWindow.delay(10);
 		}
 		System.out.println("Steps: " + forwards);
 		System.out.println("Turns: " + turns);
