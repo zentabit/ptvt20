@@ -17,7 +17,7 @@ public class MemoryGame {
 			int rounds = 0;
 
 			w.drawBoard();
-
+			
 			while (!b.hasWon()) {
 				w.waitForMouseClick();
 				int row1 = w.getMouseRow();
@@ -25,7 +25,7 @@ public class MemoryGame {
 				w.waitForMouseClick();
 				int row2 = w.getMouseRow();
 				int col2 = w.getMouseCol();
-
+				// om något av korten inte redan är uppvända
 				if (!(b.frontUp(row1, col1) || b.frontUp(row2, col2))) {
 					b.turnCard(row1, col1);
 					b.turnCard(row2, col2);
@@ -33,7 +33,8 @@ public class MemoryGame {
 					continue;
 				}
 				w.drawBoard();
-
+				
+				// om korten inte är samma, håll inte kvar dem
 				if (!b.same(row1, col1, row2, col2)) {
 					MemoryWindow.delay(1000);
 					b.turnCard(row1, col1);

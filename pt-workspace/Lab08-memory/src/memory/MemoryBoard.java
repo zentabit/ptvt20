@@ -50,7 +50,7 @@ public class MemoryBoard {
 	}
 
 	private void createCards2(String backFileName, String[] frontFileNames) {
-		Random rand = new Random();
+		//Random rand = new Random();
 		PairSet ps = new PairSet(sz, sz);
 		
 		for(String s: frontFileNames) {
