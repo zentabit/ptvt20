@@ -107,8 +107,8 @@
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_nWODz29GEeqpbvmW6r4B-Q" containerData="7500" selectedElement="_nWOD0G9GEeqpbvmW6r4B-Q" horizontal="true">
               <children xsi:type="basic:PartSashContainer" xmi:id="_nWOD0G9GEeqpbvmW6r4B-Q" containerData="5000" selectedElement="_nWOD0m9GEeqpbvmW6r4B-Q">
-                <children xsi:type="advanced:Placeholder" xmi:id="_nWOD0W9GEeqpbvmW6r4B-Q" elementId="org.eclipse.ui.editorss" containerData="7646" ref="_nWPR8W9GEeqpbvmW6r4B-Q"/>
-                <children xsi:type="basic:PartStack" xmi:id="_nWOD0m9GEeqpbvmW6r4B-Q" elementId="bottom" containerData="2354" selectedElement="_nWOD2W9GEeqpbvmW6r4B-Q">
+                <children xsi:type="advanced:Placeholder" xmi:id="_nWOD0W9GEeqpbvmW6r4B-Q" elementId="org.eclipse.ui.editorss" containerData="4411" ref="_nWPR8W9GEeqpbvmW6r4B-Q"/>
+                <children xsi:type="basic:PartStack" xmi:id="_nWOD0m9GEeqpbvmW6r4B-Q" elementId="bottom" containerData="5589" selectedElement="_nWOD2W9GEeqpbvmW6r4B-Q">
                   <tags>org.eclipse.e4.secondaryDataStack</tags>
                   <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_nWOD029GEeqpbvmW6r4B-Q" elementId="org.eclipse.ui.views.ProblemView" ref="_nWPSVm9GEeqpbvmW6r4B-Q" closeable="true">
@@ -371,7 +371,7 @@
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_lxO7AI6XEeqke_S2Y53Fhw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BankApplication.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BankApplication.java&quot; partName=&quot;BankApplication.java&quot; title=&quot;BankApplication.java&quot; tooltip=&quot;Proj-Bank/src/BankApplication.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Proj-Bank/src/BankApplication.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;255&quot; selectionTopPixel=&quot;2094&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BankApplication.java&quot; partName=&quot;BankApplication.java&quot; title=&quot;BankApplication.java&quot; tooltip=&quot;Proj-Bank/src/BankApplication.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Proj-Bank/src/BankApplication.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1701&quot; selectionTopPixel=&quot;1094&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -609,7 +609,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nWPSkG9GEeqpbvmW6r4B-Q" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_MTBbQI6XEeqke_S2Y53Fhw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_nWSVk29GEeqpbvmW6r4B-Q"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_6-I6oI64EeqndsHLibILOA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_nWSVk29GEeqpbvmW6r4B-Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nWPSnW9GEeqpbvmW6r4B-Q" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -640,7 +640,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nWPS6W9GEeqpbvmW6r4B-Q" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_MTFssI6XEeqke_S2Y53Fhw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_nWRwCG9GEeqpbvmW6r4B-Q"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_6-LW4Y64EeqndsHLibILOA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_nWRwCG9GEeqpbvmW6r4B-Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_nWPS9W9GEeqpbvmW6r4B-Q" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2592,7 +2592,7 @@
   <addons xmi:id="_nWTjU29GEeqpbvmW6r4B-Q" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_nWTjVG9GEeqpbvmW6r4B-Q" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_nWTjVW9GEeqpbvmW6r4B-Q" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_6VMrUI64EeqndsHLibILOA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_nWTjV29GEeqpbvmW6r4B-Q" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <addons xmi:id="_nWTjWG9GEeqpbvmW6r4B-Q" elementId="org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler"/>
   <categories xmi:id="_nWTjWW9GEeqpbvmW6r4B-Q" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>

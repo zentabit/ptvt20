@@ -7,7 +7,7 @@ public class BankApplication {
 	
 	public static void main(String[] args) {
 		Bank bank = new Bank();
-		//createTestAccounts(bank);
+		createTestAccounts(bank);
 		loop(bank);
 	}
 
@@ -85,16 +85,16 @@ public class BankApplication {
 					print("till konto: ");
 					int to = s.nextInt();
 					print("belopp: ");
-					int amount = s.nextInt();
+					double amount = s.nextDouble();
 					BankAccount fromAcc = bank.findByNumber(from);
 					BankAccount toAcc = bank.findByNumber(to);
-					if (fromAcc != null && toAcc != null) {
+					if (fromAcc != null && toAcc != null && fromAcc.getAmount() - amount >= 0) {
 						fromAcc.withdraw(amount);
 						toAcc.deposit(amount);
 						println(bank.findByNumber(from).toString());
 						println(bank.findByNumber(to).toString());
 					} else {
-						println("Tyvärr, ett (eller båda) konto(na) existerar inte!");
+						println("Tyvärr, ett (eller båda) konto(na) existerar inte!\nEller så har du inte täckning på kontot för en överföring!");
 					}
 
 					break;
